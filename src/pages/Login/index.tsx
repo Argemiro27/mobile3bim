@@ -34,7 +34,7 @@ export default function Login({ navigation }: LoginTypes) {
           <TextInput placeholder="Senha"></TextInput>
         </FormRow>
         <Button title="Entrar" onPress={handleMainMenu} />
-        <ButtonText title="CADASTRAR-SE" onPress={handleCadastrar} />
+        <Button title="CADASTRAR-SE" onPress={handleCadastrar} />
         </Form>       
       </Container>
     )}

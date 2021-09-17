@@ -24,8 +24,8 @@ export default function Cadastrar({ navigation }: LoginTypes) {
           <FormRow>
             <TextInput placeholder="Senha"></TextInput>
           </FormRow>
-          <Button title="Salvar" onPress={handleLogin} />
-          <ButtonText title="Voltar" onPress={handleLogin} />
+          <Button title="CADASTRAR" onPress={handleLogin} />
+          <Button title="Voltar" onPress={handleLogin} />
         </Form>
     </Container>
   );
