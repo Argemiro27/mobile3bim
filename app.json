@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AdoptedAnimal",
-    "slug": "adoptedanimal",
+    "name": "SchedzAgenda",
+    "slug": "schedzagenda",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,7 +17,7 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.cefetmg.adoptedanimal",
+      "bundleIdentifier": "com.cefetmg.schedzagenda",
       "buildNumber": "1.0.0",
       "supportsTablet": true,
       "infoPlist": {
@@ -31,7 +31,7 @@
       }
     },
     "android": {
-      "package": "com.cefetmg.adoptedanimal",
+      "package": "com.cefetmg.schedzagenda",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
