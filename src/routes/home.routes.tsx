@@ -3,7 +3,7 @@ import { Text, StyleSheet } from "react-native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import AgendaStack from "./agenda.routes";
 import colors from "../styles/colors";
-import { Camera, File, Map } from "../pages";
+import { Camera, File, Map, Sair } from "../pages";
 
 const Drawer = createDrawerNavigator();
 
@@ -32,6 +32,7 @@ export default function HomeRoute() {
       <Drawer.Screen name="Camera" component={Camera} />
       <Drawer.Screen name="File" component={File} />
       <Drawer.Screen name="Map" component={Map} />
+      <Drawer.Screen name="Sair" component={Sair} />
     </Drawer.Navigator>
   );
 }
